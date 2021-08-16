@@ -1,0 +1,7 @@
+freeswitch:
+  eslclient:
+    host: freeswitch     # event socket 主机地址
+    port: 8021           # event socket 主机端口
+    password: ClueCon    # event socket 主机认证密码
+    timeout-sec: 30000   # event socket 连接超时
+    pool-size: 1         # event socket 连接池大小
